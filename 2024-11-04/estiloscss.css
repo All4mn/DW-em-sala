@@ -1,0 +1,12 @@
+#sublinhado{
+    text-decoration: underline;
+}
+
+#sombra{
+    text-shadow:10px 5px 2px black;
+}
+
+#atalho{
+    font: italic 18px 'Arial'
+}
+  
