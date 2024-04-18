@@ -1,0 +1,25 @@
+
+body{
+    background-color: rgba(0, 5, 31, 0.87);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-weight: bold;
+    
+    text-align: center;
+    font-size:larger;
+    text-transform: uppercase;
+    color: white;
+}
+
+p.promocao{
+    text-transform: uppercase;
+    color: white;
+    background-color: rgba(0, 0, 36, 0.575);
+    border: 1px solid black;
+}
+
+img.jogo{
+    max-width: 200px;
+}
