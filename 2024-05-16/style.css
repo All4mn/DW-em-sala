@@ -1,0 +1,9 @@
+body{
+    color: white;
+    background: linear-gradient(black,purple,pink);
+    height: 100vh;
+}
+
+ul.menu{
+    list-style: none;
+}
