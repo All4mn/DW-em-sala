@@ -1,58 +1,55 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "PT Sans", sans-serif;
+}
+div.imagem {
+  background-image: url(https://i.pinimg.com/originals/61/12/3d/61123d1f7c5b6d02626d8012838ac18e.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  color: black;
+  text-align: center;
+  font-size: xx-large;
 }
 
-div.container{
-    width: 100vw;
-    height: 100vh;
+div.container {
+  width: 100vh;
+  height: 100vh;
 }
 
-ul#menu{
-    background-color: rgb(26, 26, 26);
+ul#menu {
+  background-color: rgb(26, 26, 26);
 }
 
-div#cabecalho{
-    height: 100vh;
-    width: 100vw;   
+div.conteudo {
+  height: 100vh;
 }
 
-div#secao1{
-    height: 100vh;
-    width: 100vw;   
+ul#menu li {
+  width: 100px;
+  padding: 10px;
+  display: inline-block;
 }
 
-div#secao2{
-    height: 100vh;
-    width: 100vw;   
+ul#menu a {
+  width: 100px;
+  padding: 10px;
+  transition: 0, 3s;
+  color: white;
+  background-color: rgb(26, 26, 26);
+  border: 1px solid rgb(26, 26, 26);
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
 }
 
-div#secao3{
-    height: 100vh;
-    width: 100vw;   
-}
-
-ul#menu li{
-    width: 120px;
-    padding: 10px;
-    display: inline-block;
-    border: 1px solid rgb(26, 26, 26);
-}
-
-ul#menu a{
-    width: 120px;
-    padding: 10px;
-    transition: 0,3s;
-    color: white;
-    background-color: rgb(26, 26, 26);
-    border: 1px solid rgb(26, 26, 26);
-    list-style: none;
-    text-decoration: none;
-}
-
-ul#menu a:hover{
-    background-color: white;
-    color: black;
-    border: 1px solid black;
+ul#menu a:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
 }
