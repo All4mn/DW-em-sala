@@ -9,7 +9,8 @@
 body {
   font-family: "PT Sans", sans-serif;
   scroll-behavior: smooth;
-  background-color: lightblue;
+  background-color: #8fcb9b;
+  color: #12130f;
 }
 
 div.imagem {
@@ -21,14 +22,10 @@ div.imagem {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #eae6e5;
   text-transform: uppercase;
-  text-shadow: -2px 2px 5px black;
+  text-shadow: -2px 2px 5px #12130f;
   font-size: xx-large;
-}
-
-div.countainer h1 {
-  text-align: center;
 }
 
 div.countainer {
@@ -38,6 +35,22 @@ div.countainer {
 
 div.conteudo {
   height: 100vh;
+}
+
+div.conteudo p {
+  margin: 10px;
+}
+
+div#cabecalho h1 {
+  text-align: center;
+}
+
+div#secao3 h1 {
+  text-align: center;
+}
+
+div li {
+  margin: 10px;
 }
 
 div.voltar {
@@ -50,22 +63,23 @@ div.voltar a {
   padding: 5px 20px;
   border-radius: 10px;
   transition: 0.3s;
-  color: black;
-  background-color: white;
-  border: 1px solid black;
+  color: #12130f;
+  background-color: #eae6e5;
+  border: 1px solid #12130f;
   list-style: none;
   text-decoration: none;
   font-size: x-large;
+  margin: 10px;
 }
 
 div.voltar a:hover {
-  background-color: black;
-  color: white;
+  background-color: #12130f;
+  color: #eae6e5;
+  border: 1px solid #8fcb9b;
 }
 
 ul#menu {
-  background-color: lightblue;
-  border: 1px solid black;
+  background-color: #12130f;
   padding: 10px;
   display: flex;
   justify-content: space-around;
@@ -77,15 +91,16 @@ ul#menu a {
   padding: 10px;
   border-radius: 10px;
   transition: 0.3s;
-  color: black;
-  background-color: white;
-  border: 1px solid black;
+  color: #eae6e5;
+  background-color: #5b9279;
+  border: 1px solid #12130f;
   list-style: none;
   text-decoration: none;
   font-size: x-large;
 }
 
 ul#menu a:hover {
-  background-color: black;
-  color: white;
+  background-color: #eae6e5;
+  color: #12130f;
+  border: 1px solid #8fcb9b;
 }
