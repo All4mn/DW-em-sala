@@ -1,3 +1,12 @@
+
+:root{
+  --cor1: #12130f;
+  --cor2: #eae6e5;
+  --cor3: #8fcb9b;
+  --cor4: #5b9279;
+}
+
+
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 * {
@@ -9,8 +18,8 @@
 body {
   font-family: "PT Sans", sans-serif;
   scroll-behavior: smooth;
-  background-color: #8fcb9b;
-  color: #12130f;
+  background-color: var(--cor3);
+  color: var(--cor1);
 }
 
 div.imagem {
@@ -22,9 +31,9 @@ div.imagem {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #eae6e5;
+  color: var(--cor2);
   text-transform: uppercase;
-  text-shadow: -2px 2px 5px #12130f;
+  text-shadow: -2px 2px 5px var(--cor1);
   font-size: xx-large;
 }
 
@@ -37,21 +46,46 @@ div.conteudo {
   height: 100vh;
 }
 
-div.conteudo p {
+div.conteudo p{
   margin: 10px;
 }
 
-div#cabecalho h1 {
-  text-align: center;
-}
-
-div#secao3 h1 {
+div.centralizado h1 {
   text-align: center;
 }
 
 div li {
   margin: 10px;
 }
+
+div.exerciciosImg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div#box1{
+  display: flexbox;
+  margin: 30px;
+  background-color: var(--cor1);
+  border: 1px solid var(--cor1);
+  border-radius: 10px;
+  color: var(--cor2);
+}
+
+div.box2{
+  border: 1px solid var(--cor1);
+  border-radius: 10px;
+  background-color: var(--cor2);
+  margin: 10px;
+  list-style: none;
+  text-decoration: none;
+}
+
+div#secao3{
+  height: 460vh;
+}
+
 
 div.voltar {
   display: flex;
@@ -63,9 +97,9 @@ div.voltar a {
   padding: 5px 20px;
   border-radius: 10px;
   transition: 0.3s;
-  color: #12130f;
-  background-color: #eae6e5;
-  border: 1px solid #12130f;
+  color: var(--cor1);
+  background-color: var(--cor2);
+  border: 1px solid var(--cor1);
   list-style: none;
   text-decoration: none;
   font-size: x-large;
@@ -73,17 +107,18 @@ div.voltar a {
 }
 
 div.voltar a:hover {
-  background-color: #12130f;
-  color: #eae6e5;
-  border: 1px solid #8fcb9b;
+  background-color: var(--cor1);
+  color: var(--cor2);
+  border: 1px solid var(--cor3);
 }
 
 ul#menu {
-  background-color: #12130f;
+  background-color: var(--cor1);
   padding: 10px;
   display: flex;
   justify-content: space-around;
   list-style-type: none;
+  font-weight:600;
 }
 
 ul#menu a {
@@ -91,16 +126,20 @@ ul#menu a {
   padding: 10px;
   border-radius: 10px;
   transition: 0.3s;
-  color: #eae6e5;
-  background-color: #5b9279;
-  border: 1px solid #12130f;
+  color: var(--cor2);
+  background-color: var(--cor4);
+  border: 1px solid var(--cor1);
   list-style: none;
   text-decoration: none;
   font-size: x-large;
 }
 
 ul#menu a:hover {
-  background-color: #eae6e5;
-  color: #12130f;
-  border: 1px solid #8fcb9b;
+  background-color: var(--cor2);
+  color: var(--cor1);
+  border: 1px solid var(--cor3);
+}
+
+div#rodape p{
+  text-align: center;
 }
