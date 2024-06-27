@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício</title>
+    <title>Exercício 3</title>
 
     <style>
 
         :root{
-            --realblue:rgb(65, 65, 255);
+            --realblue:#3B5BDB;
         }
 
         * {
@@ -26,22 +26,68 @@
             display: flex;
             align-items: center;
             justify-content: space-around;
+            flex-wrap: wrap;
+            align-content: center;
         }
 
-        div.h1{
+        h1{
             display: flex;
-            order: -1;
+            height: 80px;
+            width: 100vw;
+            justify-content: center;
+            font-size: 2.5em;
         }
 
         div.card{
-            height: 350px;
+            display: flex;
+            height: 400px;
             width: 300px;
             border-radius: 10px;
             background-color: white;
             color: black;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
 
         }
 
+        ul{
+            list-style: none;
+            text-decoration: none;
+        }
+
+        div.plano-nome{
+            font-weight: bolder;
+            text-align: center;
+            font-size: 1.4em;
+        }
+
+        div.plano-valor{
+            font-weight: bolder;
+            color: var(--realblue);
+            text-align: center;
+            font-size: 1.7em;
+        }
+
+        div.plano-descricao{
+            text-align: center;
+            font-size: 0.7em;
+            color: gray;
+            font-weight: bolder;
+        }
+
+        div.plano-comprar{
+            display: flex;
+            width: 130px;
+            height: 40px;
+            background-color: var(--realblue);
+            border-radius: 5px;
+            color: white;
+            font-size: 0.8em;
+            align-items: center;
+            justify-content: center;
+            font-weight:bolder;
+        } 
 
     </style>
 
@@ -50,7 +96,7 @@
 
     <div class="container">
 
-        <h1>Planos</h1>
+        <h1>Planos</h1>            
 
         <div class="card">            
             <div class="plano-nome">Starter</div>
