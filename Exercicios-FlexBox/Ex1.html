@@ -1,30 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div id="countainer">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=], initial-scale=1.0" />
+    <title>Exercício 2</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Schoolbell&display=swap");
 
-        <header>
+      :root {
+        --amarelo: #ffec99;
+        --azul: #a5d8ff;
+        --verde: #b2f2bb;
+        --vermelho: #ffc9c9;
+      }
 
-        </header>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
 
-        <aside>
+      .container {
+        display: flex;
+      }
 
-        </aside>
+      body > section {
+        flex-direction: column;
+      }
 
-        <main>
+      section {
+        height: 100%;
+        width: 100%;
+      }
 
-        </main>
-        
-        <footer>
+      body {
+        width: 100vw;
+        height: 100vh;
+        font-family: "Schoolbell", cursive;
+        font-weight: bolder;
+        font-size: larger;
+      }
 
-        </footer>
+      header {
+        width: 100%;
+        height: 70px;
+        background-color: var(--amarelo);
+      }
 
-    </div>
-    
-</body>
+      aside {
+        width: 200px;
+        background-color: var(--azul);
+      }
+
+      main {
+        width: 100%;
+        height: 100%;
+        background-color: var(--verde);
+      }
+
+      footer {
+        width: 100%;
+        height: 70px;
+        background-color: var(--vermelho);
+      }
+
+      .padrao {
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <header class="padrao">topo</header>
+
+      <section class="container">
+        <aside class="padrao">sidebar</aside>
+
+        <main class="padrao">conteúdo</main>
+      </section>
+
+      <footer class="padrao">rodapé</footer>
+    </section>
+  </body>
 </html>
