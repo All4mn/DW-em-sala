@@ -1,29 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculo de Juros</title>
     <script href="./script.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="box">
+      <h1>Calculo de Juros</h1>
 
-        <h1>Calculo de Juros</h1>
-        
-        <br>
+      <br />
 
-        <label for="capital">capital</label>
-        <input type="text" id="capital" placeholder="Digite seu capital">
+      <label for="capital">capital</label>
+      <input type="text" id="capital" placeholder="Digite seu capital" />
 
-        <label for="taxa">taxa</label>
-        <input type="text" id="taxa" placeholder="Digite a taxa aplicada">
+      <label for="taxa">taxa</label>
+      <input type="text" id="taxa" placeholder="Digite a taxa aplicada" />
 
-        <label for="periodo">periodo</label>
-        <input type="text" id="periodo" placeholder="Digite o periodo">
+      <label for="periodo">periodo</label>
+      <input type="text" id="periodo" placeholder="Digite o periodo" />
 
-        <button id="calcular" onclick="calcularJuros()">Calcular</button>
+      <button id="calcular" onclick="calcularJuros()">Calcular</button>
+      <div id="saida"></div>
     </div>
-    
-</body>
+  </body>
 </html>
