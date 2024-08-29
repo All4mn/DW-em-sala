@@ -4,13 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculo de Juros</title>
-    <script href="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
   </head>
   <body>
     <div class="box">
       <h1>Calculo de Juros</h1>
-
-      <br />
 
       <label for="capital">capital</label>
       <input type="text" id="capital" placeholder="Digite seu capital" />
@@ -22,6 +21,9 @@
       <input type="text" id="periodo" placeholder="Digite o periodo" />
 
       <button id="calcular" onclick="calcularJuros()">Calcular</button>
+
+      <br />
+
       <div id="saida"></div>
     </div>
   </body>

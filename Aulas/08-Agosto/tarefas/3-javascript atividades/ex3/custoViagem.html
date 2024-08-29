@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custo de viagem</title>
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="box">
+      <h1>Calcular Viagem</h1>
+
+      <label for="distancia">Distancia da viagem:</label>
+      <input type="text" id="distancia" />
+
+      <br />
+
+      <label for="autonomia">Quantos Km por Litro seu carro faz?</label>
+      <input type="text" id="autonomia" />
+
+      <br />
+
+      <label for="pedagio">Valor do pedágio:</label>
+      <input type="text" id="pedagio" />
+
+      <br />
+
+      <button id="calcular" onclick="custoViagem()">Calcular</button>
+
+      <p>Valor do combustivel = 5 R$</p>
+      <p>Custo de viagem:</p>
+      <div id="viagem"></div>
+    </div>
+  </body>
+</html>
