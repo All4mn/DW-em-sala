@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: green;
+  color: white;
+  font-size: large;
+}
+ul {
+  text-decoration: none;
+  list-style: none;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+li {
+  margin-right: 0.6rem;
+  margin-left: 0.6rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.logo {
+  margin-right: auto;
+  font-size: x-large;
+}
+
+div {
+  margin: 1.5rem;
+}
