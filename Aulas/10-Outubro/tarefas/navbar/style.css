@@ -16,7 +16,7 @@ ul {
   justify-content: flex-end;
   align-items: center;
 }
-li {
+li.hideM {
   margin-right: 0.6rem;
   margin-left: 0.6rem;
   margin-top: 3rem;
@@ -26,7 +26,13 @@ li {
   margin-right: auto;
   font-size: x-large;
 }
-
 div {
   margin: 1.5rem;
+}
+#sidebar {
+  display: flex;
+  background-color: darkgreen;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
