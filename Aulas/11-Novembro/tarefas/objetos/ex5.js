@@ -1,6 +1,6 @@
 const produto = {
     nome: "Camisa da Nike",
-    valor: "350",
+    valor: 350,
     categoria: "Roupas de Marca"
 }
 
